@@ -1,0 +1,24 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0 24%;
+}
+
+form {
+	border-radius: 5px;
+	width: 910px;
+}
+
+input {
+	border-radius: 5px;
+}
+
+legend {
+	font-weight: bold;
+}
+
+label {
+	font: message-box;
+}
