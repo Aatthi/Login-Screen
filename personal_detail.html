@@ -6,89 +6,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patient Registration Form</title>
 </head>
-<body>
+<header>
     <h2>Patient Registration Form</h2>
+</header>
+<body>
+
+
     <form>
         <fieldset class="personal-details">
             <legend>Personal Information</legend>
-            <label for="Firstname"> Given name:
-                <input type="text" placeholder="e.g John">
+            <label  for="Firstname"> Given name:
+                <input class="label01" type="text" placeholder="e.g John">
             </label>
-            <label for="Lastname"> Family Name:
-                <input type="text" placeholder="e.g Smith" >
-            </label>
-            <label for="DOB"> Date of Birth:
-                <input type="date" placeholder="DOB" >
+            <label  for="Lastname"> Family Name:
+                <input class="label01" type="text" placeholder="e.g Smith" >
             </label>
             <br>
             <br>
-            <label for="Gender">Gender:
-                <input type="radio" placeholder="Male"> Male
-                <input type="radio" placeholder="Female"> Female
-                <input type="radio" placeholder="Other"> Other
+            <label  for="DOB"> Date of Birth:
+                <input class="label" type="date" placeholder="DOB" >
+            </label>
+            <br>
+            <br>
+            <label class="label" for="Gender">Gender:
+                <input class="gender" type="radio" placeholder="Male"> Male
+                <input class="gender"type="radio" placeholder="Female"> Female
+                <input class="gender"type="radio" placeholder="Other"> Other
             </label>
             <br>
             <br>
             <label for="placeOfBirth">Place of Birth:
-                <input type="text" placeholder="e.g Australia">
+                <input class="label01"  type="text" placeholder="e.g Australia">
             </label>
             <label for="placeOfBirth">Pasport Number:
-                <input type="number" placeholder="P2473865">
+                <input class="label01" type="number" placeholder="P2473865">
             </label>
         </fieldset>
         <br>
 
-        <fieldset>
+        <fieldset class="contact-details">
             <legend>Contact Details</legend>
-            <label for="phoneNumber"> Mobile: 
-                <input type="number" placeholder="e.g 0412345678">
+            <label  for="phoneNumber"> Mobile: 
+                <input class="label" type="number" placeholder="e.g 0412345678">
             </label>
             <label for="Email"> Email: 
-                <input type="email" placeholder="username@domain.com">
+                <input class="label01" type="email" placeholder="username@domain.com">
             </label>
             <br>
             <br>
             <label for="phoneNumber"> Home: 
-                <input type="number" placeholder="e.g 0212345678">
+                <input class="label" type="number" placeholder="e.g 0212345678">
             </label>
             <label for="phoneNumber"> Work: 
-                <input type="number" placeholder="e.g 0212345678">
+                <input class="label" type="number" placeholder="e.g 0212345678">
             </label>
             <label for="phoneNumber"> Fax: 
-                <input type="number" placeholder="e.g 0212345678">
+                <input class="label" type="number" placeholder="e.g 0212345678">
             </label>
           
         </fieldset>
         <br>
 
-        <fieldset>
+        <fieldset class="health">
             <legend>Your Health Information</legend>
             
             <label for="Medicare"> Health Fund : 
-                <input type="text" placeholder="e.g Icare">
+                <input class="label01"  type="text" placeholder="e.g Icare">
             </label>
+            <br>
+            <br>    
             <label for="Medicare"> Health Fund Number: 
-                <input type="number" placeholder=" e.g 41398543">
+                <input class="label01" type="number" placeholder=" e.g 41398543">
             </label>
+       
             <label for="Medicare"> Health Fund card ID: 
-                <input type="number" placeholder="e.g 01">
+                <input class="label" type="number" placeholder="e.g 01">
             </label>
             <br>
             <br>
             <label for="Medicare"> Medicare No: 
-                <input type="number" placeholder="e.g 0212345678">
+                <input class="label" type="number" placeholder="e.g 0212345678">
             </label>
             <br>
             <br>
             <label for="Doctor"> Doctors Name: 
-                <input type="text" placeholder="e.g Dr Jane Smith">
+                <input class="label" type="text" placeholder="e.g Dr Jane Smith">
             </label>
             <label for="PMHx"> Past Medical History: 
-                <input type="text" placeholder="e.g. Diabetes">
+                <input class="label" type="text" placeholder="e.g. Diabetes">
             </label>
             <br>
             <br>
-            <label for="PMHx"> Do you have any of the following symptoms: 
+            <label class="corona" for="PMHx"> Do you have any of the following symptoms: 
                 <br>
                 <input type="checkbox"> Sore Throat
                 <br>
@@ -101,7 +110,7 @@
         </fieldset>
         <br>
 
-        <fieldset>
+        <fieldset class="terms">
             <legend>Terms and Conditions</legend>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, 
             accusamus nulla dolor porro quaerat corrupti neque? Dolore adipisci minima, aut, 
@@ -191,14 +200,14 @@
             </label>
             <br>
             <br>
-            <label for="Agree">
+            <label class="label02" for="Agree">
                 I agree pass on my Health information into my Health Record
-                <input type="radio"> Yes
-                <input type="radio"> No
+                <input class="label01" type="radio"> Yes
+                <input class="label01" type="radio"> No
             </label>
             <br>
             <br>
-            <input class="btn2" type="submit" name="submit" value="Submit form">  
+            <a href=""><input class="btn2" type="submit" name="submit" value="Submit form"></a>
         </fieldset>
     </form>
 </body>
