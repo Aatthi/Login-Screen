@@ -1,5 +1,0 @@
-var identityConfiguration = { };
-
-if (typeof onIdentityConfigurationSuccess == "function") {
-	onIdentityConfigurationSuccess(identityConfiguration);
-}
