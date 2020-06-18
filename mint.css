@@ -2,45 +2,49 @@ html {
 	background: #eceef1;
 }
 
-.flex {
-	display: flex;
-	align-items: center;
+form fieldset {
+	margin: 0 auto;
 }
 
 .nav li {
-	display: inline-block;
-	padding: 3px 5px;
+	display: inline-flex;
+	margin: 0 auto;
 	text-align: center;
-	padding-left: 50px;
+	align-items: center;
+	padding: 3px 20px;
+	text-align: center;
 	font-size: 14px;
 	color: #505052;
 }
 
 .nav p {
 	width: 20%;
+	justify-content: center;
 	text-align: center;
-	padding-left: 20px;
+	margin: 0 auto;
 	color: #505052;
 	font-size: 13px;
 }
 
 h2 {
-	padding-left: 5.9em;
+	text-align: center;
 	color: grey;
 	font-size: 32px;
 }
 
-nav {
-	width: 100%;
+.nav {
+	margin: 0 auto;
+	text-align: center;
+	align-items: center;
 }
 
 fieldset {
-	width: 20%;
-	padding-left: 1em;
-	margin-left: 1em;
+	width: 30%;
 	border: 1px solid #c6c7cc;
 	border-radius: 10px;
 	background: white;
+
+	margin-left: 1em;
 }
 
 .copyright-text {
@@ -70,13 +74,9 @@ p {
 }
 
 input {
-	width: 60%;
+	width: 70%;
 	height: 32px;
 	border: 1px solid #c6c7cc;
-}
-
-label {
-	padding-right: ;
 }
 
 .btn {
@@ -91,5 +91,4 @@ label {
 .text {
 	color: #505052;
 	font-size: 15px;
-	padding-bottom: -30px;
 }
