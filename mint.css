@@ -7,18 +7,20 @@ form fieldset {
 }
 
 .nav li {
-	display: inline-flex;
+	display: inline-block;
 	margin: 0 auto;
+	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding: 3px 20px;
+	padding: 10px 20px;
+	margin-right: 40px;
 	text-align: center;
 	font-size: 14px;
 	color: #505052;
 }
 
 .nav p {
-	width: 20%;
+	width: 30%;
 	justify-content: center;
 	text-align: center;
 	margin: 0 auto;
@@ -48,7 +50,7 @@ fieldset {
 }
 
 .copyright-text {
-	width: 20%;
+	width: 25%;
 }
 
 .form,
