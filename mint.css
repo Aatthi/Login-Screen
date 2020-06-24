@@ -50,7 +50,7 @@ fieldset {
 }
 
 .copyright-text {
-	width: 25%;
+	width: 35%;
 }
 
 .form,
@@ -79,6 +79,7 @@ input {
 	width: 70%;
 	height: 32px;
 	border: 1px solid #c6c7cc;
+	border-radius: 10px;
 }
 
 .btn {
